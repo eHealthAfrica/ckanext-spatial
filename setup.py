@@ -1,7 +1,9 @@
 from setuptools import setup, find_packages
-from ckanext.spatial import __version__
 
-version = __version__
+# disable due to ModuleNotFoundError during installation
+# from ckanext.spatial import __version__
+
+version = "2.1.1.1"
 
 setup(
     name="ckanext-spatial",
